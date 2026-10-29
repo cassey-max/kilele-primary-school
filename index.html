@@ -3,352 +3,363 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Mvule Hills Primary</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Kilele Primary School: an English-medium primary school in Mikocheni, Dar es Salaam, from Pre-Primary to Standard VII.">
+<title>Kilele Primary School</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Young+Serif&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
-<div class="topbar">
+<div class="notice" id="notice">
   <div class="wrap">
-    <div class="info">
-      <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+255 22 261 0000</span>
-      <span class="hide-sm"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>info@mvulehills.ac.tz</span>
-      <span class="hide-sm"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Mon – Fri, 7:30 – 16:00</span>
-    </div>
-    <div class="social" aria-label="Social media">
-      <a href="https://facebook.com" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg></a>
-      <a href="https://instagram.com" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
-      <a href="https://youtube.com" aria-label="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8zM10 15V9l5.2 3z"/></svg></a>
-    </div>
+    <span class="dot" aria-hidden="true"></span>
+    <span><b>Admissions for January 2027 are open.</b> Assessment days run every Saturday in November. <a href="#admissions">Book a visit</a></span>
+    <button class="x" id="noticeClose" aria-label="Close announcement">×</button>
   </div>
 </div>
 
-<header class="nav" id="top">
+<header class="header" id="header">
   <div class="wrap">
-    <a href="#top" class="logo" aria-label="Mvule Hills Primary School, home">
-      <svg class="logo-mark" viewBox="0 0 44 44" aria-hidden="true"><rect width="44" height="44" rx="13" fill="var(--brand)"/><circle cx="31" cy="13" r="5" fill="var(--sun)"/><path d="M8 34c4-9 9-14 14-14s10 5 14 14Z" fill="var(--leaf)"/><path d="M22 34V18M22 22l-5-4M22 25l5-4" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
-      <span><b>Mvule Hills</b><small>PRIMARY SCHOOL</small></span>
+    <a class="brand" href="#home" aria-label="Kilele Primary School home">
+      <svg class="crest" viewBox="0 0 42 50" aria-hidden="true"><path d="M21 1 L40 7 V24 C40 37 31 45 21 49 C11 45 2 37 2 24 V7 Z" fill="#0B1F4B"/><path d="M2 24 L21 14 L40 24 V28 L21 18 L2 28Z" fill="#C8102E"/><path d="M9 38 L19 26 L24 32 L28 28 L35 38 C31 43 26 46 21 47.5 C16 46 12 43 9 38Z" fill="#fff"/><path d="M21 4.5 l1.6 3.3 3.6.5-2.6 2.5.6 3.6-3.2-1.7-3.2 1.7.6-3.6-2.6-2.5 3.6-.5z" fill="#fff"/></svg>
+      <span><span class="brand-name">Kilele Primary</span><span class="brand-sub">MIKOCHENI · EST. 1998</span></span>
     </a>
-    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
-    </button>
-    <nav class="links" id="links">
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu">
       <a href="#about">About</a>
-      <a href="#academics">Academics</a>
+      <a href="#curriculum">Curriculum</a>
       <a href="#life">School Life</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#news">News</a>
-      <a href="#calendar">Calendar</a>
-      <a href="#admissions" class="btn btn-primary">Apply for 2027</a>
+      <a href="#results">Results</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#visit" class="btn btn-red"><span>Book a visit</span></a>
     </nav>
   </div>
 </header>
 
-<main>
-<section class="hero">
-  <div class="wrap">
-    <div>
-      <span class="pill in d1"><i>NEW</i> Admissions open for Standard I &amp; Pre-Primary 2027</span>
-      <h1 class="in d2">Where curious children <span class="hl"><span class="rot" id="rot">grow tall</span><svg viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true"><path d="M4 20 C 70 6, 160 6, 296 16"/></svg></span>.</h1>
-      <p class="lead in d3">An English-medium primary school in Mbezi Beach, Dar es Salaam, guiding children from Pre-Primary to Standard VII with small classes, caring teachers and a love of learning that lasts.</p>
-      <div class="hero-cta in d4">
-        <a href="#admissions" class="btn btn-primary">Book a school tour <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        <a href="#academics" class="btn btn-ghost">Explore our curriculum</a>
+<main id="home">
+<section class="slider" id="slider" aria-roledescription="carousel" aria-label="Welcome to Kilele Primary">
+  <div class="slides">
+    <article class="slide on" aria-roledescription="slide" aria-label="1 of 3">
+      <div class="bg"><svg class="fallback" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1600" height="900" fill="#0B1F4B"/><path d="M0 700 L460 380 L700 560 L900 420 L1600 760 V900 H0Z" fill="#2346C8" opacity=".55"/><circle cx="1260" cy="250" r="120" fill="#C8102E" opacity=".8"/></svg><img class="photo" src="https://images.pexels.com/photos/5905919/pexels-photo-5905919.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="A teacher with pupils in a bright classroom"></div>
+      <div class="wrap content">
+        <span class="kicker">Pre-Primary to Standard VII · Mikocheni</span>
+        <h1>Every child known, stretched and <em>celebrated</em>.</h1>
+        <p>An English-medium primary school in Dar es Salaam with small classes, strong values and a warm, ambitious culture.</p>
+        <div class="acts"><a href="#visit" class="btn btn-red"><span>Book a school visit</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#about" class="btn btn-glass"><span>Discover Kilele</span></a></div>
       </div>
-      <div class="hero-meta in d5">
-        <div><b>1:22</b>teacher to pupil ratio</div>
-        <div><b>Est. 2004</b>twenty-two years of learning</div>
-        <div><b>Pre-Primary – Std VII</b>ages 4 to 13</div>
+    </article>
+    <article class="slide" aria-roledescription="slide" aria-label="2 of 3">
+      <div class="bg"><svg class="fallback" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1600" height="900" fill="#14275a"/><g fill="#2346C8" opacity=".5"><rect x="900" y="300" width="140" height="600"/><rect x="1080" y="420" width="140" height="480"/><rect x="1260" y="200" width="140" height="700"/></g><rect x="1260" y="200" width="140" height="700" fill="#C8102E" opacity=".75"/></svg><img class="photo" loading="lazy" src="https://images.pexels.com/photos/31820972/pexels-photo-31820972.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Uniformed pupils during a lesson"></div>
+      <div class="wrap content">
+        <span class="kicker">PSLE 2025 results</span>
+        <h1>100% pass rate. <em>71%</em> Grade A.</h1>
+        <p>Calm, careful preparation for national examinations, and pupils who still love to learn.</p>
+        <div class="acts"><a href="#results" class="btn btn-red"><span>See our results</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#curriculum" class="btn btn-glass"><span>Our curriculum</span></a></div>
       </div>
+    </article>
+    <article class="slide" aria-roledescription="slide" aria-label="3 of 3">
+      <div class="bg"><svg class="fallback" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1600" height="900" fill="#0B1F4B"/><path d="M0 760 Q800 600 1600 760 V900 H0Z" fill="#2346C8" opacity=".6"/><circle cx="1180" cy="620" r="70" fill="#fff" opacity=".9"/><circle cx="300" cy="220" r="90" fill="#C8102E" opacity=".8"/></svg><img class="photo" loading="lazy" src="https://images.pexels.com/photos/30449603/pexels-photo-30449603.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Young people playing football at sunset"></div>
+      <div class="wrap content">
+        <span class="kicker">Admissions open for 2027</span>
+        <h1>Sport, music, coding and <em>more</em> after the bell.</h1>
+        <p>Sixteen clubs and teams, a reading garden and six school bus routes across Kinondoni.</p>
+        <div class="acts"><a href="#admissions" class="btn btn-red"><span>Apply for 2027</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#life" class="btn btn-glass"><span>School life</span></a></div>
+      </div>
+    </article>
+  </div>
+  <div class="wrap controls">
+    <div class="dots" id="dots" role="tablist" aria-label="Choose slide">
+      <button role="tab" aria-label="Slide 1: Welcome" aria-selected="true"><span>01</span><i></i></button>
+      <button role="tab" aria-label="Slide 2: Results" aria-selected="false"><span>02</span><i></i></button>
+      <button role="tab" aria-label="Slide 3: School life" aria-selected="false"><span>03</span><i></i></button>
     </div>
-
-    <div class="scene in d3">
-      <svg viewBox="0 0 520 530" role="img" aria-label="Illustration of a school building under a mvule tree with the sun shining">
-        <g class="spin"><circle cx="400" cy="110" r="78" fill="none" stroke="var(--sun)" stroke-width="3" stroke-dasharray="4 14" stroke-linecap="round"/></g>
-        <circle cx="400" cy="110" r="52" fill="var(--sun)"/>
-        <path d="M30 470 C 30 260, 140 150, 270 150 S 500 260, 500 470 Z" fill="var(--sky)"/>
-        <g class="float-b"><path d="M70 205 q18-22 40-6 q18-14 34 4 q16 2 12 16 h-92 q-10-12 6-14z" fill="var(--surface)" opacity=".95"/></g>
-        <!-- hill -->
-        <path d="M0 470 C 120 400, 260 395, 520 440 V530 H0Z" fill="var(--leaf)"/>
-        <!-- tree -->
-        <rect x="88" y="330" width="16" height="110" rx="6" fill="#6B4A2E"/>
-        <g class="float-c"><circle cx="96" cy="300" r="56" fill="var(--brand)"/><circle cx="58" cy="330" r="34" fill="var(--brand)"/><circle cx="134" cy="330" r="36" fill="var(--brand)"/><circle cx="110" cy="286" r="8" fill="var(--coral)"/><circle cx="72" cy="312" r="6" fill="var(--sun)"/></g>
-        <!-- school -->
-        <rect x="200" y="300" width="230" height="140" rx="6" fill="var(--surface)"/>
-        <path d="M188 306 L315 236 L442 306Z" fill="var(--coral)"/>
-        <rect x="292" y="364" width="46" height="76" rx="23" fill="var(--brand)"/>
-        <rect x="222" y="334" width="44" height="40" rx="6" fill="var(--sky)"/>
-        <rect x="364" y="334" width="44" height="40" rx="6" fill="var(--sky)"/>
-        <circle cx="315" cy="282" r="14" fill="var(--sun)"/>
-        <line x1="440" y1="230" x2="440" y2="300" stroke="var(--ink)" stroke-width="3"/>
-        <g class="float-a"><path d="M442 232 h36 l-8 10 l8 10 h-36z" fill="var(--sun)"/></g>
-        <!-- books & pencil -->
-        <g class="float-a"><rect x="40" y="96" width="70" height="16" rx="4" fill="var(--coral)" transform="rotate(-8 75 104)"/><rect x="48" y="80" width="62" height="16" rx="4" fill="var(--brand)" transform="rotate(-8 79 88)"/></g>
-        <g class="float-b"><rect x="430" y="240" width="0" height="0"/><g transform="rotate(35 230 110)"><rect x="200" y="104" width="70" height="14" rx="3" fill="var(--sun)"/><path d="M270 104 l16 7 l-16 7z" fill="#E9C9A0"/><rect x="190" y="104" width="12" height="14" rx="3" fill="var(--coral)"/></g></g>
-      </svg>
-      <div class="hero-photo"><img class="ph" src="https://images.pexels.com/photos/28593044/pexels-photo-28593044.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Smiling pupils in a classroom"></div>
-      <div class="badge badge-1"><span class="dot" style="background:var(--sun)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#13241E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg></span><span><b>Grade A</b>PSLE average, 2025</span></div>
-      <div class="badge badge-2"><span class="dot" style="background:var(--band)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V6a2 2 0 0 1 2-2h12v15H6a2 2 0 0 0-2 2"/><path d="M9 8h6"/></svg></span><span><b>4,200 books</b>in our library</span></div>
+    <div class="nav-btns">
+      <button id="sPrev" aria-label="Previous slide"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+      <button id="sPause" aria-label="Pause slideshow"><svg class="i-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg><svg class="i-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5l12 7-12 7z"/></svg></button>
+      <button id="sNext" aria-label="Next slide"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
     </div>
   </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll to content"><span></span></a>
 </section>
+<div class="stripe" aria-hidden="true"></div>
 
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <span>English</span><span>Kiswahili</span><span>Mathematics</span><span>Science &amp; Technology</span><span>Social Studies</span><span>French</span><span>ICT &amp; Coding</span><span>Music</span><span>Art</span><span>Sports</span>
-    <span>English</span><span>Kiswahili</span><span>Mathematics</span><span>Science &amp; Technology</span><span>Social Studies</span><span>French</span><span>ICT &amp; Coding</span><span>Music</span><span>Art</span><span>Sports</span>
+<div class="facts">
+  <div class="wrap">
+    <div class="fact rv"><b data-count="28">28</b><span>years educating children in Dar es Salaam</span></div>
+    <div class="fact rv"><b><span data-count="20">20</span><sup>max</sup></b><span>pupils in every Pre-Primary class</span></div>
+    <div class="fact rv"><b><span data-count="100">100</span><sup>%</sup></b><span>PSLE pass rate, five years running</span></div>
+    <div class="fact rv"><b data-count="16">16</b><span>clubs, teams and after-school activities</span></div>
   </div>
 </div>
 
-<section class="about" id="about">
+<section class="welcome" id="about">
   <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">About our school</span>
-      <h2 class="h2">Strong roots, open skies.</h2>
-      <p class="lead" style="margin-top:20px">Our school takes its name from the mvule, the great hardwood tree of East Africa. It grows slowly, stands strong, and gives shade to everyone beneath it. That is the kind of growth we hope for in every child.</p>
-      <p class="lead">We follow the Tanzanian national curriculum, enriched with reading programmes, hands-on science and the arts, so pupils leave Standard VII confident, kind and ready for secondary school.</p>
-      <div class="quote">“A child who reads with joy will learn anything they set their mind to.”<cite>Mrs. Neema Mushi, Head Teacher</cite></div>
-      <div class="about-photo"><img class="ph" loading="lazy" src="https://images.pexels.com/photos/6437505/pexels-photo-6437505.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Two children reading a book together"></div>
-    </div>
-    <div class="values">
-      <article class="value reveal"><div class="ic" style="background:color-mix(in srgb,var(--sun) 30%,transparent)"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></div><h3>Care</h3><p>Every child is known by name, by their teachers and by the whole staff.</p></article>
-      <article class="value reveal"><div class="ic" style="background:color-mix(in srgb,var(--coral) 25%,transparent)"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Curiosity</h3><p>Questions are welcome. We learn by asking, testing and building.</p></article>
-      <article class="value reveal"><div class="ic" style="background:color-mix(in srgb,var(--leaf) 30%,transparent)"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 10l7-7 7 7"/></svg></div><h3>Excellence</h3><p>High standards in reading, numeracy and character, every single term.</p></article>
-      <article class="value reveal"><div class="ic" style="background:color-mix(in srgb,var(--sky) 70%,transparent)"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c0-3 3-5 6-5s6 2 6 5M15 19c0-2 1.5-3.5 4-3.5"/></svg></div><h3>Community</h3><p>Parents, pupils and teachers working together as one family.</p></article>
-    </div>
-  </div>
-</section>
-
-<div class="stats">
-  <div class="wrap">
-    <div class="stat reveal"><b data-count="100" data-suffix="%">100%</b><span>of Standard VII pupils passed the 2025 PSLE</span></div>
-    <div class="stat reveal"><b data-count="640">640</b><span>pupils from Pre-Primary to Standard VII</span></div>
-    <div class="stat reveal"><b data-count="38">38</b><span>qualified teachers and teaching assistants</span></div>
-    <div class="stat reveal"><b data-count="14">14</b><span>clubs, sports teams and after-school activities</span></div>
-  </div>
-</div>
-
-<section>
-  <div class="wrap">
-    <div class="head-row reveal">
-      <div><span class="eyebrow">Why families choose us</span><h2 class="h2">More than good grades.</h2></div>
-      <p class="lead" style="max-width:44ch">Parents tell us these three things made the difference when they chose Mvule Hills.</p>
-    </div>
-    <div class="why">
-      <article class="why-card reveal" style="--accent-c:var(--sun)"><div class="num">22</div><h3>Years of trusted teaching</h3><p>Since 2004, families across Kinondoni have trusted us with their children's first years of school.</p></article>
-      <article class="why-card reveal" style="--accent-c:var(--coral)"><div class="num">1:22</div><h3>Small, caring classes</h3><p>Every class has a teacher and an assistant, so no child is left behind or left unchallenged.</p></article>
-      <article class="why-card reveal" style="--accent-c:var(--leaf)"><div class="num">6 ha</div><h3>Safe, green campus</h3><p>A fenced compound with playing fields, a library, a science room and a school garden.</p></article>
-    </div>
-  </div>
-</section>
-
-<section id="academics">
-  <div class="wrap">
-    <div class="head-row reveal">
-      <div><span class="eyebrow">Academics</span><h2 class="h2">Three stages, one journey.</h2></div>
-      <p class="lead" style="max-width:44ch">Each stage builds on the last, so children move from play-based discovery to confident, independent learning.</p>
-    </div>
-    <div class="levels">
-      <article class="level reveal"><span class="blob" style="background:color-mix(in srgb,var(--sun) 45%,transparent)"></span><div class="level-img"><img class="ph" loading="lazy" src="https://images.pexels.com/photos/6437471/pexels-photo-6437471.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Young children looking at a picture book"></div><span class="age">Ages 4 – 6</span><h3>Pre-Primary</h3><p>Learning through play, stories and song. Children build early literacy, numbers and the social skills to thrive in Standard I.</p><ul><li>Phonics</li><li>Early maths</li><li>Play &amp; movement</li></ul></article>
-      <article class="level reveal"><span class="blob" style="background:color-mix(in srgb,var(--coral) 35%,transparent)"></span><div class="level-img"><img class="ph" loading="lazy" src="https://images.pexels.com/photos/28593054/pexels-photo-28593054.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pupils seated in a classroom"></div><span class="age">Standard I – III</span><h3>Lower Primary</h3><p>Fluent reading and writing in English and Kiswahili, strong arithmetic and a first taste of science through experiments.</p><ul><li>Reading levels</li><li>Kiswahili</li><li>Science</li></ul></article>
-      <article class="level reveal"><span class="blob" style="background:color-mix(in srgb,var(--leaf) 40%,transparent)"></span><div class="level-img"><img class="ph" loading="lazy" src="https://images.pexels.com/photos/34162714/pexels-photo-34162714.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Older pupils focused on their classwork"></div><span class="age">Standard IV – VII</span><h3>Upper Primary</h3><p>Deeper subject teaching, the Standard IV national assessment and focused preparation for the PSLE in Standard VII.</p><ul><li>SFNA prep</li><li>PSLE prep</li><li>ICT &amp; coding</li></ul></article>
-    </div>
-  </div>
-</section>
-
-<section class="day" id="life">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">A day at Mvule Hills</span>
-      <h2 class="h2">From morning assembly to home time.</h2>
-      <p class="lead" style="margin-top:18px">A calm, structured day with time to focus, play and eat well. Monday to Friday.</p>
-    </div>
-    <div class="timeline" id="timeline">
-      <span class="prog"></span>
-      <div class="slot"><time>7:30</time><h3>Arrival</h3><p>Gates open, morning reading in class.</p></div>
-      <div class="slot"><time>7:50</time><h3>Assembly</h3><p>National anthem, news and the weekly value.</p></div>
-      <div class="slot"><time>8:10</time><h3>Core lessons</h3><p>English, Maths and Kiswahili while minds are fresh.</p></div>
-      <div class="slot"><time>10:30</time><h3>Break &amp; snack</h3><p>Fruit, porridge and play on the field.</p></div>
-      <div class="slot"><time>12:30</time><h3>Lunch</h3><p>Hot lunch cooked in our school kitchen.</p></div>
-      <div class="slot"><time>14:00</time><h3>Clubs</h3><p>Sports, music, coding and art until 15:30.</p></div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="head-row reveal">
-      <div><span class="eyebrow">Beyond the classroom</span><h2 class="h2">Clubs that spark something.</h2></div>
-    </div>
-    <div class="clubs">
-      <article class="club reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3c3 3 3 15 0 18M3 12h18"/></svg><h3>Football &amp; Netball</h3><p>Inter-school leagues across Kinondoni.</p></article>
-      <article class="club reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M9 9l-2 2 2 2M15 9l2 2-2 2"/></svg><h3>Young Coders</h3><p>Scratch, robotics kits and simple games.</p></article>
-      <article class="club reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg><h3>Choir &amp; Ngoma</h3><p>Singing and traditional drumming.</p></article>
-      <article class="club reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-4 8-7 8-12a8 8 0 0 0-16 0c0 5 4 8 8 12z"/><path d="M12 14V8M9 11l3-3 3 3"/></svg><h3>Eco Garden</h3><p>Growing vegetables for the school kitchen.</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="cta-band">
-  <div class="wrap">
-    <div class="cta-box reveal">
-      <span class="ring r1"></span><span class="ring r2"></span>
-      <div>
-        <span class="tag">Admissions open</span>
-        <h2>Applications for the 2027 school year are now open.</h2>
-        <p>We are accepting pupils from Pre-Primary to Standard VI. Entrance assessments run every Saturday until mid-December.</p>
+    <div class="portrait rv">
+      <div class="frame">
+        <svg class="fallback" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="500" fill="#E9EDF5"/><circle cx="200" cy="190" r="70" fill="#0B1F4B"/><path d="M70 500 C80 360 140 300 200 300 S320 360 330 500Z" fill="#0B1F4B"/><path d="M200 300 L180 360 L200 420 L220 360Z" fill="#C8102E"/></svg>
+        <img class="photo" loading="lazy" src="https://images.pexels.com/photos/5905444/pexels-photo-5905444.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A teacher explaining the lesson plan to pupils">
       </div>
-      <div class="acts">
-        <a href="#admissions" class="btn btn-sun">Apply now</a>
-        <a href="#calendar" class="btn btn-line">See assessment dates</a>
+      <div class="tag"><b>Mrs. Grace Lyimo</b>Head Teacher since 2015</div>
+    </div>
+    <div class="letter rv">
+      <span class="kicker">A welcome from our Head</span>
+      <h2 class="title">A small school with <em>high</em> expectations.</h2>
+      <p class="first">Kilele means "summit" in Kiswahili. We chose the name because we believe every child has a peak of their own to reach, and that our job is to walk beside them on the way up.</p>
+      <p>Our teachers know each pupil by name, by strength and by struggle. We keep classes small so that reading gets heard, questions get answered and quiet children get noticed. Alongside strong results in English, Kiswahili and Mathematics, we care just as much about honesty, kindness and courage.</p>
+      <p>The best way to understand Kilele is to visit on an ordinary school morning. I would be delighted to show you around.</p>
+      <div class="sign">
+        <svg viewBox="0 0 170 60" aria-label="Signature of Grace Lyimo"><path class="draw wait" d="M8 42 C 14 18, 34 10, 30 30 C 27 44, 12 48, 16 36 C 22 22, 40 34, 46 30 C 52 26, 50 40, 56 38 C 62 36, 62 24, 68 26 C 72 28, 66 42, 74 40 C 84 37, 88 14, 92 16 C 96 18, 88 46, 96 42 C 104 38, 108 26, 114 30 C 120 34, 112 44, 122 40 C 132 36, 138 26, 146 28 C 154 30, 150 40, 162 34"/></svg>
+        <span><b>Grace Lyimo</b><small>Head Teacher, B.Ed (UDSM), M.Ed (Leadership)</small></span>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="curriculum" id="curriculum">
+  <div class="wrap">
+    <div class="curr-head rv">
+      <div><span class="kicker">Curriculum</span><h2 class="title">Learning that builds, year on year.</h2></div>
+      <p class="lede" style="max-width:46ch">We teach the Tanzanian national curriculum in English, with Kiswahili taught to a high standard and French from Standard III.</p>
+    </div>
+    <div class="tabs rv" role="tablist" aria-label="School stages">
+      <button class="tab" role="tab" id="t1" aria-controls="p1" aria-selected="true">Pre-Primary<small>Ages 4 – 6</small></button>
+      <button class="tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">Lower Primary<small>Standard I – III</small></button>
+      <button class="tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1">Upper Primary<small>Standard IV – VII</small></button>
+    </div>
+    <div class="panels">
+      <div class="panel on" role="tabpanel" id="p1" aria-labelledby="t1">
+        <div>
+          <h3>Confident first steps</h3>
+          <p>Two years of play-based learning in bright, safe classrooms. Children learn letters and sounds, early number, and how to share, listen and take turns, so they arrive in Standard I ready and excited.</p>
+          <ul class="subjects"><li>Phonics &amp; early reading</li><li>Number &amp; shape</li><li>Kiswahili songs &amp; stories</li><li>Art &amp; free play</li><li>Music &amp; movement</li><li>Outdoor discovery</li></ul>
+        </div>
+        <div class="pic">
+          <svg class="fallback" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="500" height="400" fill="#2346C8"/><circle cx="140" cy="150" r="60" fill="#fff" opacity=".95"/><rect x="250" y="110" width="120" height="120" fill="#C8102E"/><path d="M180 330 L250 230 L320 330Z" fill="#0B1F4B"/></svg>
+          <img class="photo" loading="lazy" src="https://images.pexels.com/photos/4544904/pexels-photo-4544904.jpeg?auto=compress&cs=tinysrgb&w=900" alt="A young child painting on paper">
+          <span class="badge"><small>CLASS SIZE</small>Up to 20 children</span>
+        </div>
+      </div>
+      <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2">
+        <div>
+          <h3>Fluent readers, careful thinkers</h3>
+          <p>Pupils become fluent readers and writers in English and Kiswahili, master the four operations and begin hands-on science. Each child reads aloud to an adult every day.</p>
+          <ul class="subjects"><li>English</li><li>Kiswahili</li><li>Mathematics</li><li>Science &amp; Technology</li><li>French (from Std III)</li><li>Arts &amp; Sports</li></ul>
+        </div>
+        <div class="pic">
+          <svg class="fallback" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="500" height="400" fill="#0B1F4B"/><g fill="#fff"><rect x="90" y="90" width="90" height="220"/><rect x="200" y="140" width="90" height="170"/><rect x="310" y="60" width="90" height="250" fill="#C8102E"/></g></svg>
+          <img class="photo" loading="lazy" src="https://images.pexels.com/photos/5905493/pexels-photo-5905493.jpeg?auto=compress&cs=tinysrgb&w=900" alt="A pupil solving a task during a lesson">
+          <span class="badge"><small>DAILY</small>One-to-one reading</span>
+        </div>
+      </div>
+      <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3">
+        <div>
+          <h3>Ready for secondary school</h3>
+          <p>Specialist teaching in core subjects, the Standard IV national assessment (SFNA), and structured, calm preparation for the PSLE in Standard VII, with weekly ICT and coding.</p>
+          <ul class="subjects"><li>Mathematics</li><li>English &amp; Kiswahili</li><li>Science &amp; Technology</li><li>Social Studies</li><li>Civic &amp; Moral Education</li><li>ICT &amp; Coding</li></ul>
+        </div>
+        <div class="pic">
+          <svg class="fallback" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="500" height="400" fill="#C8102E"/><rect x="110" y="90" width="280" height="180" rx="8" fill="#0B1F4B"/><rect x="128" y="108" width="244" height="144" fill="#2346C8"/><path d="M190 160 l-24 20 24 20 M310 160 l24 20-24 20 M270 150 l-40 60" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/><rect x="200" y="270" width="100" height="14" fill="#0B1F4B"/></svg>
+          <img class="photo" loading="lazy" src="https://images.pexels.com/photos/31820972/pexels-photo-31820972.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Uniformed pupils during a classroom session">
+          <span class="badge"><small>STANDARD VII</small>PSLE preparation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="life">
+  <div class="wrap">
+    <span class="kicker rv">Life at Kilele</span>
+    <h2 class="title rv" style="max-width:16ch">The school day doesn't end at the bell.</h2>
+    <div class="bento">
+      <a href="#life" class="tile big rv">
+        <svg class="fallback" viewBox="0 0 600 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="600" height="500" fill="#2346C8"/><path d="M0 380 Q300 300 600 380 V500 H0Z" fill="#0B1F4B"/><circle cx="420" cy="300" r="34" fill="#fff"/><path d="M420 266 l12 22 -24 0z M396 300 l24 10 24-10" stroke="#0B1F4B" stroke-width="3" fill="none"/><circle cx="130" cy="120" r="50" fill="#C8102E"/></svg>
+        <img class="photo" loading="lazy" src="https://images.pexels.com/photos/30449603/pexels-photo-30449603.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Young people playing football at sunset">
+        <div class="cap"><small>Sport</small><h3>Football, netball &amp; athletics</h3><p>Kilele teams compete in the Kinondoni inter-school league every term.</p></div>
+      </a>
+      <a href="#life" class="tile rv">
+        <svg class="fallback" viewBox="0 0 300 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="240" fill="#0B1F4B"/><rect x="70" y="60" width="160" height="100" rx="6" fill="#fff"/><rect x="82" y="72" width="136" height="76" fill="#2346C8"/><rect x="110" y="160" width="80" height="10" fill="#fff"/></svg>
+        <img class="photo" loading="lazy" src="https://images.pexels.com/photos/5905702/pexels-photo-5905702.jpeg?auto=compress&cs=tinysrgb&w=700" alt="A boy learning with a laptop">
+        <div class="cap"><small>Technology</small><h3>Young Coders</h3><p>Scratch, robotics and simple games.</p></div>
+      </a>
+      <a href="#life" class="tile rv">
+        <svg class="fallback" viewBox="0 0 300 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="240" fill="#C8102E"/><path d="M110 170 V70 l90-18 v100" stroke="#fff" stroke-width="8" fill="none"/><circle cx="96" cy="170" r="18" fill="#fff"/><circle cx="186" cy="152" r="18" fill="#fff"/></svg>
+        <img class="photo" loading="lazy" src="https://images.pexels.com/photos/9644670/pexels-photo-9644670.jpeg?auto=compress&cs=tinysrgb&w=700" alt="A child playing the drums">
+        <div class="cap"><small>Arts</small><h3>Choir &amp; ngoma</h3><p>Singing and traditional drumming.</p></div>
+      </a>
+      <a href="#life" class="tile wide rv">
+        <svg class="fallback" viewBox="0 0 600 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="600" height="240" fill="#E9EDF5"/><g fill="#0B1F4B"><rect x="80" y="70" width="40" height="120"/><rect x="130" y="90" width="40" height="100" fill="#C8102E"/><rect x="180" y="60" width="40" height="130"/><rect x="230" y="80" width="40" height="110" fill="#2346C8"/></g><path d="M60 190 H560" stroke="#0B1F4B" stroke-width="6"/></svg>
+        <img class="photo" loading="lazy" src="https://images.pexels.com/photos/6437586/pexels-photo-6437586.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="A girl studying with a book and laptop">
+        <div class="cap"><small>Library</small><h3>5,000 books and a reading garden</h3><p>Every pupil borrows two books a week.</p></div>
+      </a>
+      <a href="#visit" class="tile solid rv" style="grid-row:span 1">
+        <h3>See it for yourself</h3>
+        <div><p>Tours run every weekday at 9:00 and 11:00.</p><span class="arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="results" id="results">
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker">Results</span>
+      <h2 class="title">Strong results, without the pressure.</h2>
+      <p class="lede" style="margin-top:20px">We prepare pupils carefully and calmly for national examinations. These are our 2025 Standard VII PSLE results.</p>
+      <div class="big-stat">
+        <div><b><span data-count="58">58</span></b><span>pupils sat the PSLE in 2025</span></div>
+        <div><b><span data-count="71">71</span>%</b><span>achieved Grade A overall</span></div>
+      </div>
+    </div>
+    <div class="chart rv" id="chart">
+      <h3>Average score by subject</h3>
+      <p class="sub">PSLE 2025, Standard VII, out of 100</p>
+      <ul class="bars">
+        <li><span>English</span><span class="track"><span class="fill" data-w="91"></span></span><b>91</b></li>
+        <li><span>Kiswahili</span><span class="track"><span class="fill" data-w="88"></span></span><b>88</b></li>
+        <li><span>Mathematics</span><span class="track"><span class="fill" data-w="85"></span></span><b>85</b></li>
+        <li><span>Science &amp; Tech</span><span class="track"><span class="fill" data-w="87"></span></span><b>87</b></li>
+        <li><span>Social Studies</span><span class="track"><span class="fill" data-w="83"></span></span><b>83</b></li>
+        <li><span>Civic &amp; Moral</span><span class="track"><span class="fill" data-w="90"></span></span><b>90</b></li>
+      </ul>
+      <div class="scale" aria-hidden="true"><span></span><span><i style="font-style:normal">0</i><i style="font-style:normal">50</i><i style="font-style:normal">100</i></span><span></span></div>
     </div>
   </div>
 </section>
 
 <section class="voices">
   <div class="wrap">
-    <span class="eyebrow reveal">Parent voices</span>
-    <div class="slider reveal">
-      <div class="slides" id="slides">
-        <figure class="slide on" style="margin:0"><blockquote>Our daughter started Standard I barely reading. By the end of the year she was reading story books to her little brother every night.</blockquote><figcaption class="who"><span class="avatar" style="background:var(--sun)">AK</span><span><b>Amina Kombo</b><span>Parent, Standard II</span></span></figcaption></figure>
-        <figure class="slide" style="margin:0"><blockquote>The teachers actually call us with good news, not only problems. That changed how our son feels about school.</blockquote><figcaption class="who"><span class="avatar" style="background:var(--coral)">JM</span><span><b>Joseph Mwakyusa</b><span>Parent, Standard V</span></span></figcaption></figure>
-        <figure class="slide" style="margin:0"><blockquote>Both our children passed the PSLE with A grades, and more importantly, they still love learning.</blockquote><figcaption class="who"><span class="avatar" style="background:var(--leaf)">RL</span><span><b>Rehema Lyimo</b><span>Parent of two alumni</span></span></figcaption></figure>
+    <div class="voices-head rv">
+      <div><span class="kicker">Parents &amp; pupils</span><h2 class="title">In their words.</h2></div>
+      <div class="arrows"><button id="prev" aria-label="Previous testimonials"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button><button id="next" aria-label="Next testimonials"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+    </div>
+    <div class="track-x" id="track">
+      <figure class="quote" style="margin:0"><div class="mark">“</div><blockquote>Our son was shy and quiet. Two years at Kilele and he read the morning news at assembly in front of the whole school.</blockquote><figcaption class="who"><span class="av" style="background:#0B1F4B">AM</span><span><b>Asha Mrema</b><span>Parent, Standard III</span></span></figcaption></figure>
+      <figure class="quote" style="margin:0"><div class="mark">“</div><blockquote>The teachers send a short note home every Friday. I always know what my daughter learned and how I can help.</blockquote><figcaption class="who"><span class="av" style="background:#C8102E">JK</span><span><b>John Kimaro</b><span>Parent, Standard V</span></span></figcaption></figure>
+      <figure class="quote" style="margin:0"><div class="mark">“</div><blockquote>I like the coding club best. Last term I made a game where a giraffe has to jump over cars.</blockquote><figcaption class="who"><span class="av" style="background:#2346C8">FN</span><span><b>Faraji, age 11</b><span>Pupil, Standard VI</span></span></figcaption></figure>
+      <figure class="quote" style="margin:0"><div class="mark">“</div><blockquote>Both our girls passed the PSLE with A grades and joined their first-choice secondary schools. More importantly, they still love to learn.</blockquote><figcaption class="who"><span class="av" style="background:#0B1F4B">RS</span><span><b>Rehema Said</b><span>Parent of two alumni</span></span></figcaption></figure>
+      <figure class="quote" style="margin:0"><div class="mark">“</div><blockquote>Pre-Primary was such a gentle start. My daughter cried on day one and was running to the gate by day five.</blockquote><figcaption class="who"><span class="av" style="background:#C8102E">NM</span><span><b>Neema Massawe</b><span>Parent, Pre-Primary</span></span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="admissions" id="admissions">
+  <div class="wrap">
+    <span class="kicker rv">Admissions 2027</span>
+    <h2 class="title rv" style="max-width:20ch">Joining Kilele in four simple steps.</h2>
+    <div class="steps">
+      <div class="step rv"><span class="n">1</span><h3>Visit</h3><p>Tour the school on a weekday morning and meet the Head Teacher.</p></div>
+      <div class="step rv"><span class="n">2</span><h3>Apply</h3><p>Return the form with a birth certificate, last school report and two passport photos.</p></div>
+      <div class="step rv"><span class="n">3</span><h3>Assessment</h3><p>A relaxed reading and maths session on a Saturday morning. Not needed for Pre-Primary.</p></div>
+      <div class="step rv"><span class="n">4</span><h3>Welcome</h3><p>Receive your offer, uniform list and first-day plan within one week.</p></div>
+    </div>
+    <div class="adm-grid">
+      <div class="terms rv">
+        <h3>2027 term dates</h3>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>Term</th><th>Opens</th><th>Mid-term break</th><th>Closes</th></tr></thead>
+            <tbody>
+              <tr><td>Term 1</td><td>11 Jan</td><td>15 – 19 Mar</td><td>1 Apr</td></tr>
+              <tr><td>Term 2</td><td>26 Apr</td><td>21 – 25 Jun</td><td>6 Aug</td></tr>
+              <tr><td>Term 3</td><td>6 Sep</td><td>18 – 22 Oct</td><td>3 Dec</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-      <div class="dots" id="dots" role="tablist" aria-label="Choose testimonial"></div>
-    </div>
-  </div>
-</section>
-
-<section id="gallery">
-  <div class="wrap">
-    <div class="head-row reveal">
-      <div><span class="eyebrow">Gallery</span><h2 class="h2">Moments from our year.</h2></div>
-      <a href="#gallery" class="btn btn-ghost">View all albums</a>
-    </div>
-    <div class="gallery">
-      <a href="#gallery" class="album tall reveal"><svg viewBox="0 0 300 460" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="460" fill="var(--brand)"/><circle cx="220" cy="90" r="60" fill="var(--sun)"/><path d="M0 330 Q150 260 300 320 V460 H0Z" fill="var(--leaf)"/><path d="M110 330 l20-60 l20 60 M130 270 v-40 l-18 18 M130 230 l18 18" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/><circle cx="130" cy="220" r="12" fill="#fff"/></svg><img class="ph" loading="lazy" src="https://images.pexels.com/photos/19416414/pexels-photo-19416414.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Boys playing football on a field"><div class="cap"><span><small>School life</small><b>Sports Day 2026</b></span><span class="count">48 photos</span></div></a>
-      <a href="#gallery" class="album wide reveal"><svg viewBox="0 0 600 220" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="600" height="220" fill="var(--coral)"/><g fill="var(--sun)"><path d="M120 120 l40-60 l40 60z"/><path d="M260 120 l40-60 l40 60z"/><path d="M400 120 l40-60 l40 60z"/></g><rect x="100" y="120" width="400" height="16" rx="4" fill="#13241E"/><circle cx="520" cy="40" r="22" fill="#fff" opacity=".6"/></svg><img class="ph" loading="lazy" src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Graduates throwing caps in the air"><div class="cap"><span><small>Ceremonies</small><b>Standard VII Graduation</b></span><span class="count">112 photos</span></div></a>
-      <a href="#gallery" class="album reveal"><svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="220" fill="var(--sky)"/><path d="M0 170 L80 90 L140 140 L210 60 L300 160 V220 H0Z" fill="var(--brand)"/><circle cx="240" cy="50" r="20" fill="var(--sun)"/></svg><img class="ph" loading="lazy" src="https://images.pexels.com/photos/6572780/pexels-photo-6572780.jpeg?auto=compress&cs=tinysrgb&w=900" alt="A large group of children outdoors"><div class="cap"><span><small>Trips</small><b>Visit to Bagamoyo</b></span><span class="count">36 photos</span></div></a>
-      <a href="#gallery" class="album reveal"><svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="220" fill="var(--sun)"/><rect x="60" y="60" width="180" height="110" rx="10" fill="#13241E"/><rect x="74" y="74" width="152" height="82" rx="4" fill="var(--leaf)"/><path d="M100 120 l20-16 l20 16 l20-24 l30 24" stroke="#13241E" stroke-width="5" fill="none"/></svg><img class="ph" loading="lazy" src="https://images.pexels.com/photos/11025019/pexels-photo-11025019.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Young boys using a laptop in class"><div class="cap"><span><small>Academics</small><b>Young Coders Showcase</b></span><span class="count">24 photos</span></div></a>
-    </div>
-  </div>
-</section>
-
-<section id="news">
-  <div class="wrap">
-    <div class="head-row reveal">
-      <div><span class="eyebrow">News &amp; events</span><h2 class="h2">What's happening.</h2></div>
-      <a href="#news" class="btn btn-ghost">All news</a>
-    </div>
-    <div class="news">
-      <a href="#news" class="post reveal"><div class="art"><svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="200" fill="var(--sun)"/><circle cx="250" cy="40" r="60" fill="var(--coral)" opacity=".8"/><rect x="60" y="80" width="40" height="120" fill="var(--brand)"/><rect x="140" y="50" width="40" height="150" fill="var(--brand)"/><rect x="220" y="110" width="40" height="90" fill="var(--brand)"/></svg><img class="ph" loading="lazy" src="https://images.pexels.com/photos/11153566/pexels-photo-11153566.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Young pupils in school uniform"></div><div class="body"><div class="meta"><span class="cat">Academics</span><time>27 OCT 2026</time></div><h3>Standard IV sits national assessment</h3><p>All 84 pupils completed the SFNA this week. Thank you, parents, for the support at home.</p></div></a>
-      <a href="#news" class="post reveal"><div class="art"><svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="200" fill="var(--sky)"/><circle cx="160" cy="100" r="54" fill="none" stroke="var(--brand)" stroke-width="8"/><circle cx="160" cy="100" r="16" fill="var(--coral)"/><path d="M60 170 h200" stroke="var(--brand)" stroke-width="8" stroke-linecap="round"/></svg><img class="ph" loading="lazy" src="https://images.pexels.com/photos/6437591/pexels-photo-6437591.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Children working together on a laptop"></div><div class="body"><div class="meta"><span class="cat">Achievements</span><time>20 OCT 2026</time></div><h3>Science Fair winners</h3><p>Standard VI's solar water heater took first place in the district.</p></div></a>
-      <a href="#news" class="post reveal"><div class="art"><svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="200" fill="var(--leaf)"/><rect x="70" y="50" width="80" height="110" rx="6" fill="var(--surface)"/><rect x="170" y="50" width="80" height="110" rx="6" fill="var(--sun)"/><path d="M160 50v110" stroke="var(--brand)" stroke-width="6"/></svg><img class="ph" loading="lazy" src="https://images.pexels.com/photos/8500625/pexels-photo-8500625.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Pupils reading books in a library"></div><div class="body"><div class="meta"><span class="cat">School life</span><time>9 OCT 2026</time></div><h3>Reading Week</h3><p>Pupils read 3,100 books in five days. See the class leaderboard.</p></div></a>
-    </div>
-  </div>
-</section>
-
-<section id="calendar" style="padding-top:0">
-  <div class="wrap">
-    <div class="head-row reveal">
-      <div><span class="eyebrow">School calendar</span><h2 class="h2">Coming up.</h2></div>
-      <a href="#calendar" class="btn btn-ghost">Full term calendar</a>
-    </div>
-    <div class="events">
-      <article class="event reveal">
-        <div class="datebadge"><small>NOV</small><b>14</b><span>Saturday</span></div>
-        <div><h3>Annual Sports Day</h3><p class="where"><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>8:00 – 14:00</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>School field</span></p></div>
-        <div class="countdown" data-date="2026-11-14T08:00:00+03:00"></div>
-      </article>
-      <article class="event reveal">
-        <div class="datebadge"><small>NOV</small><b>21</b><span>Saturday</span></div>
-        <div><h3>Entrance assessment, 2027 intake</h3><p class="where"><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>9:00 – 12:00</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Main hall</span></p></div>
-        <div class="countdown" data-date="2026-11-21T09:00:00+03:00"></div>
-      </article>
-      <article class="event reveal">
-        <div class="datebadge"><small>DEC</small><b>4</b><span>Friday</span></div>
-        <div><h3>Prize giving &amp; end of year</h3><p class="where"><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10:00 – 13:00</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Main hall</span></p></div>
-        <div class="countdown" data-date="2026-12-04T10:00:00+03:00"></div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="adm" id="admissions" style="background:var(--band)">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Admissions 2027</span>
-      <h2 class="h2">Join the Mvule family.</h2>
-      <p class="lead" style="margin-top:18px">The 2027 school year begins in January. Places in Pre-Primary and Standard I fill quickly, so we recommend applying before 15 December.</p>
-      <ol class="steps">
-        <li><span><b>Book a tour</b><span>Visit the campus and meet our Head Teacher.</span></span></li>
-        <li><span><b>Submit an application</b><span>Birth certificate, recent report and two passport photos.</span></span></li>
-        <li><span><b>Assessment day</b><span>A friendly reading and maths check for Standard I and above.</span></span></li>
-        <li><span><b>Welcome pack</b><span>Uniform, books and your child's first-day plan.</span></span></li>
-      </ol>
-    </div>
-    <form class="card reveal" id="form" novalidate>
-      <h3>Book a school tour</h3>
-      <div class="row">
-        <div class="field"><label for="pname">Parent's name</label><input id="pname" required placeholder="e.g. Grace Mollel"></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" type="tel" required placeholder="+255 7XX XXX XXX"></div>
+      <div class="fees rv">
+        <h3>What's included</h3>
+        <p>Our termly fee covers everything your child needs for a full school day.</p>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Hot lunch and mid-morning porridge</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>All textbooks and exercise books</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Two after-school clubs per term</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Optional school bus on six routes</li>
+        </ul>
+        <a href="#visit" class="btn btn-red" style="justify-self:start;margin-top:6px"><span>Request the fee schedule</span></a>
       </div>
-      <div class="row">
-        <div class="field"><label for="cname">Child's name</label><input id="cname" placeholder="e.g. Baraka"></div>
-        <div class="field"><label for="level">Applying for</label>
-          <select id="level"><option>Pre-Primary</option><option selected>Standard I</option><option>Standard II – IV</option><option>Standard V – VI</option></select></div>
-      </div>
-      <div class="field"><label for="msg">Anything we should know?</label><textarea id="msg" placeholder="Preferred tour day, questions about transport, etc."></textarea></div>
-      <button class="btn btn-primary" type="submit" style="justify-self:start">Request a tour <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-      <div class="ok" id="ok" role="status"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg><span id="okText"></span></div>
-      <p class="note">This is a demo form. Connect it to your email or database before going live.</p>
-    </form>
+    </div>
   </div>
 </section>
 
-<section class="final">
-  <div class="wrap reveal">
-    <span class="eyebrow">Still deciding?</span>
-    <h2 class="h2">Come and see Mvule Hills for yourself.</h2>
-    <p class="lead">Walk the campus, sit in on a lesson and meet the teachers. Tours run every weekday morning.</p>
-    <div class="hero-cta">
-      <a href="#admissions" class="btn btn-primary">Start your application</a>
-      <a href="#admissions" class="btn btn-ghost">Ask a question</a>
+<section class="faq">
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker">Questions</span>
+      <h2 class="title">Things parents often ask.</h2>
+      <p class="lede" style="margin-top:20px">Can't find your answer? Call the school office on +255 22 277 0000, Monday to Friday, 7:30 to 16:00.</p>
+    </div>
+    <div class="acc rv" id="acc">
+      <div class="acc-item"><button class="acc-q" aria-expanded="true" id="q1" aria-controls="a1">What age can my child start?<span class="pm" aria-hidden="true"></span></button><div class="acc-a" id="a1" role="region" aria-labelledby="q1"><div><p>Children can join Pre-Primary from age 4 and Standard I from age 6. We also accept pupils into Standard II to VI when places are available.</p></div></div></div>
+      <div class="acc-item"><button class="acc-q" aria-expanded="false" id="q2" aria-controls="a2">Do you offer school transport?<span class="pm" aria-hidden="true"></span></button><div class="acc-a" id="a2" role="region" aria-labelledby="q2"><div><p>Yes. Our buses run six routes covering Mikocheni, Mbezi Beach, Sinza, Kijitonyama, Masaki and Mwenge. Every bus has a trained escort.</p></div></div></div>
+      <div class="acc-item"><button class="acc-q" aria-expanded="false" id="q3" aria-controls="a3">Which curriculum do you follow?<span class="pm" aria-hidden="true"></span></button><div class="acc-a" id="a3" role="region" aria-labelledby="q3"><div><p>We follow the Tanzanian national curriculum, taught in English. Pupils sit the SFNA in Standard IV and the PSLE in Standard VII.</p></div></div></div>
+      <div class="acc-item"><button class="acc-q" aria-expanded="false" id="q4" aria-controls="a4">How do you keep children safe?<span class="pm" aria-hidden="true"></span></button><div class="acc-a" id="a4" role="region" aria-labelledby="q4"><div><p>The campus is fully fenced with a staffed gate. Visitors sign in, children are only released to named adults, and a nurse is on site every school day.</p></div></div></div>
+      <div class="acc-item"><button class="acc-q" aria-expanded="false" id="q5" aria-controls="a5">Can parents get involved?<span class="pm" aria-hidden="true"></span></button><div class="acc-a" id="a5" role="region" aria-labelledby="q5"><div><p>Absolutely. Our Parents' Association meets twice a term, and parents help with reading mornings, sports day and the end-of-year concert.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="visit-box rv">
+      <div class="visit-info">
+        <svg class="ghost" viewBox="0 0 42 50" aria-hidden="true"><path d="M21 1 L40 7 V24 C40 37 31 45 21 49 C11 45 2 37 2 24 V7 Z" fill="#fff"/></svg>
+        <h2>Come and visit us.</h2>
+        <p>Tell us a little about your family and we'll call you within one working day to arrange a tour.</p>
+        <dl>
+          <div><dt>Address</dt><dd>Plot 112, Old Bagamoyo Road, Mikocheni B, Dar es Salaam</dd></div>
+          <div><dt>Phone</dt><dd>+255 22 277 0000</dd></div>
+          <div><dt>Email</dt><dd>admissions@kileleprimary.ac.tz</dd></div>
+          <div><dt>Office hours</dt><dd>Monday to Friday, 7:30 – 16:00</dd></div>
+        </dl>
+      </div>
+      <form class="form" id="form" novalidate>
+        <h3>Book a school visit</h3>
+        <div class="row">
+          <div class="field"><input id="f-name" placeholder=" " autocomplete="name"><label for="f-name">Parent's full name</label></div>
+          <div class="field"><input id="f-phone" type="tel" placeholder=" " autocomplete="tel"><label for="f-phone">Phone number</label></div>
+        </div>
+        <div class="row">
+          <div class="field"><input id="f-child" placeholder=" "><label for="f-child">Child's first name</label></div>
+          <div class="field select"><select id="f-level"><option>Pre-Primary</option><option selected>Standard I</option><option>Standard II – IV</option><option>Standard V – VI</option></select><label for="f-level">Joining</label></div>
+        </div>
+        <div class="field"><textarea id="f-msg" placeholder=" "></textarea><label for="f-msg">Preferred day or any questions</label></div>
+        <button class="btn btn-navy" type="submit" style="justify-self:start"><span>Request a visit</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="msg" id="formMsg" role="status" hidden></p>
+        <p class="demo">Demo form: connect it to email or a database before going live.</p>
+      </form>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
+<footer class="footer">
+  <div class="stripe" aria-hidden="true"></div>
   <div class="wrap">
-    <div class="grid">
+    <div class="top">
       <div>
-        <a href="#top" class="logo">
-          <svg class="logo-mark" viewBox="0 0 44 44" aria-hidden="true"><rect width="44" height="44" rx="13" fill="var(--brand)"/><circle cx="31" cy="13" r="5" fill="var(--sun)"/><path d="M8 34c4-9 9-14 14-14s10 5 14 14Z" fill="var(--leaf)"/><path d="M22 34V18M22 22l-5-4M22 25l5-4" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
-          <span><b>Mvule Hills</b><small>PRIMARY SCHOOL</small></span>
+        <a class="brand" href="#home">
+          <svg class="crest" viewBox="0 0 42 50" aria-hidden="true"><path d="M21 1 L40 7 V24 C40 37 31 45 21 49 C11 45 2 37 2 24 V7 Z" fill="#fff"/><path d="M2 24 L21 14 L40 24 V28 L21 18 L2 28Z" fill="#C8102E"/><path d="M9 38 L19 26 L24 32 L28 28 L35 38 C31 43 26 46 21 47.5 C16 46 12 43 9 38Z" fill="#0B1F4B"/><path d="M21 4.5 l1.6 3.3 3.6.5-2.6 2.5.6 3.6-3.2-1.7-3.2 1.7.6-3.6-2.6-2.5 3.6-.5z" fill="#0B1F4B"/></svg>
+          <span><span class="brand-name">Kilele Primary</span><span class="brand-sub">MIKOCHENI · EST. 1998</span></span>
         </a>
-        <p class="motto">Kukua kwa hekima. Growing in wisdom.</p>
-        <div class="social" style="margin-top:20px">
-          <a href="https://facebook.com" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg></a>
-          <a href="https://instagram.com" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
-          <a href="https://youtube.com" aria-label="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8zM10 15V9l5.2 3z"/></svg></a>
+        <p class="motto"><em>Juu Zaidi.</em> Ever higher, together.</p>
+        <div class="socials">
+          <a href="https://facebook.com" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg></a>
+          <a href="https://instagram.com" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+          <a href="https://youtube.com" aria-label="YouTube"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8zM10 15V9l5.2 3z"/></svg></a>
         </div>
       </div>
-      <div><h4>Visit</h4><ul><li>Plot 41, Mbezi Beach</li><li>Kinondoni, Dar es Salaam</li><li>Mon – Fri, 7:30 – 16:00</li></ul></div>
-      <div><h4>Contact</h4><ul><li>+255 22 261 0000</li><li>info@mvulehills.ac.tz</li><li>P.O. Box 00000</li></ul></div>
-      <div><h4>Explore</h4><ul><li><a href="#about">About us</a></li><li><a href="#academics">Academics</a></li><li><a href="#life">School life</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#calendar">Calendar</a></li><li><a href="#admissions">Admissions</a></li></ul></div>
+      <div><h4>School</h4><ul><li><a href="#about">About us</a></li><li><a href="#curriculum">Curriculum</a></li><li><a href="#life">School life</a></li><li><a href="#results">Results</a></li></ul></div>
+      <div><h4>Parents</h4><ul><li><a href="#admissions">Admissions</a></li><li><a href="#admissions">Term dates</a></li><li><a href="#visit">Book a visit</a></li><li><a href="#visit">Contact</a></li></ul></div>
+      <div><h4>Visit</h4><ul><li>Plot 112, Old Bagamoyo Road</li><li>Mikocheni B, Dar es Salaam</li><li>+255 22 277 0000</li></ul></div>
     </div>
-    <div class="base"><span>© 2026 Mvule Hills Primary School</span><span>Registered with the Ministry of Education, Science and Technology</span></div>
+    <div class="bottom"><span>© 2026 Kilele Primary School. Sample website.</span><span>Registered with the Ministry of Education, Science and Technology</span></div>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<button class="to-top" id="toTop" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
 
+<script src="script.js"></script>
 </body>
 </html>
