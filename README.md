@@ -2,7 +2,7 @@
 
 A responsive, single-page website for a fictional English-medium primary school in Dar es Salaam, Tanzania.
 
-**Live demo:** https://YOUR-USERNAME.github.io/mvule-hills-school/
+**Live demo:** https://cassey-max.github.io/mvule-hills-school/
 
 ## Features
 
